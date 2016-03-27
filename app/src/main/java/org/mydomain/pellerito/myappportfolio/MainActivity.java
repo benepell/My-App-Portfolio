@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         final Button[] arrRIdBtn = new Button[MAXBTN];
 
-        final int[] arrButtonId = {R.id.id_button1, R.id.id_button2, R.id.id_button3, R.id.id_button4, R.id.id_button5, R.id.id_button6};
+        final int[] arrButtonId = {R.id.spotifyButton, R.id.scoresButton, R.id.libraryButton, R.id.buildButton, R.id.xyzReaderButton, R.id.capStoneButton};
 
 
         // inizialize MyArrButton with text in resources values/string
@@ -52,32 +52,32 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (v.getId()) {
 
-                    case R.id.id_button1:
-                        Toast.makeText(getApplicationContext(), strBtnPress  ,
-                                Toast.LENGTH_SHORT).show();
-                        break;
-
-                    case R.id.id_button2:
+                    case R.id.spotifyButton:
                         Toast.makeText(getApplicationContext(), strBtnPress,
                                 Toast.LENGTH_SHORT).show();
                         break;
 
-                    case R.id.id_button3:
+                    case R.id.scoresButton:
                         Toast.makeText(getApplicationContext(), strBtnPress,
                                 Toast.LENGTH_SHORT).show();
                         break;
 
-                    case R.id.id_button4:
+                    case R.id.libraryButton:
                         Toast.makeText(getApplicationContext(), strBtnPress,
                                 Toast.LENGTH_SHORT).show();
                         break;
 
-                    case R.id.id_button5:
+                    case R.id.buildButton:
                         Toast.makeText(getApplicationContext(), strBtnPress,
                                 Toast.LENGTH_SHORT).show();
                         break;
 
-                    case R.id.id_button6:
+                    case R.id.xyzReaderButton:
+                        Toast.makeText(getApplicationContext(), strBtnPress,
+                                Toast.LENGTH_SHORT).show();
+                        break;
+
+                    case R.id.capStoneButton:
                         Toast.makeText(getApplicationContext(), strBtnPress,
                                 Toast.LENGTH_SHORT).show();
                         break;

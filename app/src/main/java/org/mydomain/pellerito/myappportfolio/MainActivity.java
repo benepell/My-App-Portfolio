@@ -18,7 +18,15 @@ public class MainActivity extends AppCompatActivity {
 
         final int[] arrButtonId = {R.id.id_button1, R.id.id_button2, R.id.id_button3, R.id.id_button4, R.id.id_button5, R.id.id_button6};
 
-        for (int i=0; i<arrRIdBtn.length; i++) arrRIdBtn[i] = (Button) findViewById(arrButtonId[i]);
+
+        // inizialize MyArrButton with text in resources values/string
+        String[] myArrButton = getResources().getStringArray(R.array.button_array);
+
+        for (int i=0; i<arrRIdBtn.length; i++) {
+            arrRIdBtn[i] = (Button) findViewById(arrButtonId[i]);
+            // set text in button
+            arrRIdBtn[i].setText(myArrButton[i]);
+        }
 
         View.OnClickListener clickBtn = new View.OnClickListener() {
 

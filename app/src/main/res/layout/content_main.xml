@@ -35,57 +35,71 @@
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:weightSum="1"
-        android:layout_below="@+id/linearLayout">
-
-        <Button
-            android:layout_width="200dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/spotifyButton"
-            android:layout_marginTop="10dp"
-            android:background="#f08c35" />
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1"
+            android:layout_below="@+id/linearLayout">
 
-        <Button
-            android:layout_width="200dp"
+        <ScrollView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/scoresButton"
-            android:layout_marginTop="10dp"
-            android:background="#f08c35" />
+            android:id="@+id/scrollView" >
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/libraryButton"
-            android:layout_marginTop="10dp"
-            android:background="#f08c35" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/buildButton"
-            android:layout_marginTop="10dp"
-            android:background="#f08c35" />
+                <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spotifyButton"
+                        android:layout_marginTop="10dp"
+                        android:background="#f08c35" />
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/xyzReaderButton"
-            android:layout_marginTop="10dp"
-            android:background="#f08c35" />
+                <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/scoresButton"
+                        android:layout_marginTop="10dp"
+                        android:background="#f08c35" />
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/capStoneButton"
-            android:layout_marginTop="10dp"
-            android:background="#cd0e3e"
-            android:textColor="#fff" />
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/libraryButton"
+                    android:layout_marginTop="10dp"
+                    android:background="#f08c35" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/buildButton"
+                    android:layout_marginTop="10dp"
+                    android:background="#f08c35" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/xyzReaderButton"
+                    android:layout_marginTop="10dp"
+                    android:background="#f08c35" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/capStoneButton"
+                    android:layout_marginTop="10dp"
+                    android:background="#cd0e3e"
+                    android:textColor="#fff" />
+            </LinearLayout>
+        </ScrollView>
+
     </LinearLayout>
 
 </RelativeLayout>

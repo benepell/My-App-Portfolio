@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">My App Portfolio</string>
     <string name="action_settings">Settings</string>
+
+    <!-- Suggestion 1: make your string value reusable, list button-->
+    <string-array name="button_array">
+        <item>SPOTIFY STREAMER</item>
+        <item>SCORES APP</item>
+        <item>LIBRARY APP</item>
+        <item>BUILD IT BIGGER</item>
+        <item>XYZ READER</item>
+        <item>CAPSTONE: MYOWN APP</item>
+    </string-array>
+
+
+
+    <string name="prova">prova2</string>
+
 </resources>

@@ -47,7 +47,6 @@
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="SPOTIFY STREAMER"
             android:id="@+id/id_button1"
             android:layout_marginTop="10dp"
             android:background="#f08c35" />
@@ -55,7 +54,6 @@
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="SCORES APP"
             android:id="@+id/id_button2"
             android:layout_marginTop="10dp"
             android:background="#f08c35" />
@@ -63,7 +61,6 @@
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="LIBRARY APP"
             android:id="@+id/id_button3"
             android:layout_marginTop="10dp"
             android:background="#f08c35" />
@@ -71,7 +68,6 @@
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="BUILD IT BIGGER"
             android:id="@+id/id_button4"
             android:layout_marginTop="10dp"
             android:background="#f08c35" />
@@ -79,7 +75,6 @@
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="XYZ READER"
             android:id="@+id/id_button5"
             android:layout_marginTop="10dp"
             android:background="#f08c35" />
@@ -87,7 +82,6 @@
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="CAPSTONE: MY OWN APP"
             android:id="@+id/id_button6"
             android:layout_marginTop="10dp"
             android:background="#cd0e3e"

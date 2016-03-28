@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="org.mydomain.pellerito.myappportfolio.MainActivity"
+    tools:context="eu.pellerito.android.MainActivity"
     tools:showIn="@layout/activity_main"
     android:background="#e8eaf6">
 
